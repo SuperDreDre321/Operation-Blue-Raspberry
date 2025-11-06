@@ -15,8 +15,8 @@ client = OpenAI()
 # ==== TWILIO SETUP ====
 TWILIO_SID = "YOUR_TWILIO_SID"
 TWILIO_AUTH_TOKEN = "YOUR_TWILIO_AUTH_TOKEN"
-TWILIO_FROM = "+1XXXXXXXXXX"    # Your Twilio number
-TWILIO_TO = "+1YYYYYYYYYY"      # Your phone number for alerts
+TWILIO_FROM = "+18777804236"    # Your Twilio number
+TWILIO_TO = "+19495505587"      # Your phone number for alerts
 
 twilio_client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
 
